@@ -13,3 +13,5 @@ LEDPSTHs analyzes similar data structures as noted above, but for trials in whic
 MseqAnal and mseqplotwork require spike time stamps and time stamps for the start of each repeat of the m-sequence stimulus. This creates kernels that represent each STA. The plot function enables opening existing kernels to plot STAs and temporal response curves for each type of m-sequence stimulus (black/white and cone-modulating). RFsizeNHPold analyzes the peak STA created from the above codes and computes the size of the receptive field within that STA.
 
 Jitter and TransSustainedFlashLatPrecTSI codes calculate PSTHs from spike times and flash spot stimulus time stamps and then calculate metrics that describe the temporal dynamics of these responses. Plotjitter creates PSTHs for identified units.
+
+The DoGFigure is python code for generating Figure 5 of Mai et al NCOMMS submission.
